@@ -11,8 +11,6 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 10) {
             IdleSpriteView()
-            Text("Your pet is evolving!")
-                .font(.caption)
         }
         .padding()
     }
